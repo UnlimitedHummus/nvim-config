@@ -20,6 +20,14 @@ require("lazy").setup({"nvim-treesitter/nvim-treesitter",
 -- or                              , branch = '0.1.x',
       dependencies = { 'nvim-lua/plenary.nvim' }
     },
+{'williamboman/mason.nvim'},
+{'williamboman/mason-lspconfig.nvim'},
+
+{'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
+{'neovim/nvim-lspconfig'},
+{'hrsh7th/cmp-nvim-lsp'},
+{'hrsh7th/nvim-cmp'},
+{'L3MON4D3/LuaSnip'},
     { "catppuccin/nvim", lazy = false, name = "catppuccin", priority = 1000, config = function()
     vim.cmd([[colorscheme catppuccin]])
     end,
