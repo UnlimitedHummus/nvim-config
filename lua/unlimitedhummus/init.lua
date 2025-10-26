@@ -25,9 +25,12 @@ require("lazy").setup({"nvim-treesitter/nvim-treesitter",
 
 {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
 {'neovim/nvim-lspconfig'},
+{'mbbill/undotree'},
 {'hrsh7th/cmp-nvim-lsp'},
 {'hrsh7th/nvim-cmp'},
 {'L3MON4D3/LuaSnip'},
+{'tpope/vim-fugitive'},
+{'github/copilot.vim'},
     { "catppuccin/nvim", lazy = false, name = "catppuccin", priority = 1000, config = function()
     vim.cmd([[colorscheme catppuccin]])
     end,
