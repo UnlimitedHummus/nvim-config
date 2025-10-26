@@ -17,6 +17,4 @@ vim.keymap.set({"n", "v"}, "<leader>pp", [["+p]])
 -- dont replace register
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
-vim.keymap.set("n", "<leader><leader>", function()
-	vim.cmd("so")
-end)
+vim.keymap.set("n", "<leader><leader>", ":")
